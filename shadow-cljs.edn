@@ -5,8 +5,8 @@
  :builds       {:app {:target     :browser
                       :output-dir "public/js"
                       :asset-path "/js"
-                      :modules    {:app {:entries [snake.core]}}
-                      :devtools   {:after-load snake.core/mount-root}}}
+                      :modules    {:app {:entries [snek.core]}}
+                      :devtools   {:after-load snek.core/mount-root}}}
 
  :dev-http     {3000 {:root    "public"
                       :handler user/app}}}

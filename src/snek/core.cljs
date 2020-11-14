@@ -1,12 +1,13 @@
-(ns snake.core
+(ns snek.core
   (:require
-   [snake.game :as game]
-   [snake.view :as view]
+   [snek.game :as game]
+   [snek.view :as view]
    [reagent.dom :as d]))
 
 ;; -------------------------
 ;; Initialize app
-;; 
+;;
+
 (defn home-page []
   [:div
    [view/game game/game-state]])

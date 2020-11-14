@@ -1,6 +1,6 @@
-(ns snake.view
+(ns snek.view
   (:require
-   [snake.game :as game]
+   [snek.game :as game]
    [reagent.core :as r]))
 
 (def square

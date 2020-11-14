@@ -1,4 +1,4 @@
-(ns snake.game)
+(ns snek.game)
 
 (defn- place-snake-on-board
   [{snake :snake
